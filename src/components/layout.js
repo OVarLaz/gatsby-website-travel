@@ -1,8 +1,8 @@
+import PropTypes from "prop-types"
 import React from "react"
-
-import Navbar from "./Navbar"
-import "./layout.css"
 import Footer from "./Footer"
+import "./layout.css"
+import Navbar from "./Navbar"
 
 const Layout = ({ children }) => {
   return (
@@ -12,6 +12,10 @@ const Layout = ({ children }) => {
       <Footer />
     </>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

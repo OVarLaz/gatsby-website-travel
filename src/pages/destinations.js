@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import "../../src/components/layout.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
